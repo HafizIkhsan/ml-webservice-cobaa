@@ -1,0 +1,22 @@
+{
+  "name": "berkebun-ml-services",
+  "version": "1.0.0",
+  "description": "Ml web services for Berkebun+ capstone project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server/server.js",
+    "dev": "nodemon src/server/server.js"
+  },
+  "author": "Afif Imam Rahadi & Muhammad Hafiz Ikhsan",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^7.14.0",
+    "@hapi/hapi": "^21.3.12",
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "dotenv": "^16.4.5",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
